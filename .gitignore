@@ -40,7 +40,7 @@ wandb/
 *.egg-info
 __pycache__
 
-roboverse/data/motions
+humanoidverse/data/motions
 *.pkl
 *.pt
 
@@ -49,33 +49,13 @@ roboverse/data/motions
 sim2real/models/*.onnx
 sim2real/models/dec_loco/*.onnx
 
-roboverse/data/smpl
+humanoidverse/data/smpl
 data/shape
 data/motions
-roboverse/data/Recorded/
-roboverse/data/AMASS/
+humanoidverse/data/Recorded/
+humanoidverse/data/AMASS/
 AMASS/*
 
 *.sh
 *.txt
 
-eval_g129dof_checkpoints
-_isaac_sim
-scripts/batch_eval/*.log
-
-TairanTestbed_0104_checkpoints
-TairanTestbed_0109_checkpoints
-TairanTestbed_0109_eval_g129dof_anneal_23dof_checkpoints
-TairanTestbed_0109_eval_g129dof_anneal_23dof_checkpoints_20250112_1853
-TairanTestbed_0109_eval_g129dof_anneal_23dof_checkpoints_20250113_1731
-*.zip
-TairanTestbed_0109_eval_g129dof_anneal_23dof_checkpoints_20250113_2229_MinimalFriction-0.3_RfiFalse
-
-TairanTestbed_0109_eval_g129dof_anneal_23dof_checkpoints_20250118_1849_MinimalFriction-0.3_RfiTrue_Far0.325_RESUME_LARGENOISE
-TairanTestbed_0109_eval_g129dof_anneal_23dof_checkpoints_20250119_2018_MinimalFriction-0.3_RfiTrue_Far0.325_RESUME_LARGENOISE
-hubble_data
-
-osmocheckpoints
-
-./scripts/batch_eval
-./scripts/batch_osmo_scp

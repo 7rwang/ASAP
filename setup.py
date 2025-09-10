@@ -30,6 +30,6 @@ setup(
         "easydict",
         "lxml",
         "numpy-stl",
-        "open3d"
+        "open3d",
     ]
 )
